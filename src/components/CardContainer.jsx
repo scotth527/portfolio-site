@@ -42,9 +42,8 @@ function CardContainer(args) {
     );
 
     return (
-        <div className="flex justify-between">
+        <div className="d-flex flex-wrap justify-content-between">
             { job_cards }
-            <div>Example Cards</div>
         </div>
     );
 

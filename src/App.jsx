@@ -6,6 +6,7 @@ import { Button, Card } from 'reactstrap';
 import  Navigation  from './components/NavBar.jsx';
 import Footer from './components/Footer.jsx';
 import CardContainer from "./components/CardContainer";
+import Hero from "./components/Hero";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,10 +14,9 @@ function App() {
   return (
     <>
       <div className="col-12">
-      
       <Navigation />
+      <Hero />
       <h1>Full Stack Web Developer</h1>
-      <Button color="primary">Click Me To Learn More</Button>
       <CardContainer />
       <Footer  />
       </div>
