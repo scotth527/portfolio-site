@@ -5,8 +5,9 @@ import "./App.css";
 import { Button, Card } from 'reactstrap';
 import  Navigation  from './components/NavBar.jsx';
 import Footer from './components/Footer.jsx';
-import CardContainer from "./components/CardContainer";
-import Hero from "./components/Hero";
+import Home from "./pages/Home.jsx";
+import Contact from "./pages/Contact";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,9 +16,13 @@ function App() {
     <>
       <div className="col-12">
       <Navigation />
-      <Hero />
-      <h1>Full Stack Web Developer</h1>
-      <CardContainer />
+
+      <Routes>
+        <Route path="/" element={ <Home />} />
+        <Route path="/contact" element={ <Contact /> } />
+      </Routes>
+
+
       <Footer  />
       </div>
     </>
