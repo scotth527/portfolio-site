@@ -6,7 +6,7 @@ function Home() {
     return (
         <>
             <Hero />
-            <h1>Full Stack Web Developer</h1>
+            <h1>Past Projects</h1>
             <CardContainer />
         </>
 

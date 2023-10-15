@@ -1,20 +1,46 @@
 import React from 'react';
 import { Button } from 'reactstrap';
+import  HeroImage  from '../assets/images/hero-images/digital-hero.jpg';
 
-const Example = (props) => {
+const Hero = (props) => {
   return (
     <div>
-      <div>
-        <h1 className="display-3">Hello, world!</h1>
-        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr className="my-2" />
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p className="lead">
-          <Button color="primary">Learn More</Button>
-        </p>
+      <div className='container hero-container position-relative'>
+        <div className='  d-flex justify-content-end'>
+
+          
+
+          <div className="col col-6 px-4 text-start">
+            <div className="">Hi, I am</div>
+            <h1 className="lead display-3">Scott Huang</h1>
+          </div>
+
+        
+          {/* <div className="col col-6 px-4 text-start">
+            <img src={ HeroImage } className='col' alt="Digital Image" />
+          </div> */}
+        
+        </div>
+        <div className='bg-teal p-3 d-flex  justify-content-end'>
+          <div className="col col-6 font-weight-bold px-4 text-start ">
+            <h2>Fullstack Developer</h2>
+          </div>
+        </div>
+
+        <div className='d-flex align-items-center justify-content-start hero-image-container'>
+          <div className='col-7'>
+            <img src={ HeroImage } className='col' alt="Digital Image" />
+          </div>
+
+        </div>
+     
+
+
       </div>
+
+
     </div>
   );
 };
 
-export default Example;
+export default Hero;

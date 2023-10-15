@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Footer(args) {
   
     return (
-      <div className='d-flex justify-content-between'>
+      <div className='d-flex justify-content-between container'>
         <div className=''>
             Scott Huang 2023.
         </div>

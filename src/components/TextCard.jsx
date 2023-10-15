@@ -9,13 +9,13 @@ import {
 } from 'reactstrap';
 
 
-function JobCard({ title, url, description, img, width  }) {
+function TextCard({ title, url, description, img, width  }) {
     const [isOpen, setIsOpen] = useState(false);
   
     const toggle = () => setIsOpen(!isOpen);
   
     return (
-      <div className={width} >
+      <div className={width}>
         <Card className="my-2">
             <CardImg
             alt="Card image cap"
@@ -48,12 +48,12 @@ function JobCard({ title, url, description, img, width  }) {
     );
   }
 
-  JobCard.defaultProps = {
+  TextCard.defaultProps = {
     url: false,
     description: 'My Prop',
     title: 'Test',
     img: 'https://picsum.photos/900/180',
-    width: 'col col-lg-3 h-100 px-3'
+    width: 'col col-lg-2'
   }
   
-  export default JobCard;
+  export default TextCard;

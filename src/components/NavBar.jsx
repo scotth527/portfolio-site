@@ -22,7 +22,7 @@ function Navigation(args) {
   return (
     <div>
       <Navbar {...args}>
-        <NavbarBrand href="/">Scott Huang</NavbarBrand>
+        <NavbarBrand href="/">&lt;Scott Huang&gt;</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>

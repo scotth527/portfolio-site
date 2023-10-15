@@ -42,7 +42,7 @@ function CardContainer(args) {
     );
 
     return (
-        <div className="d-flex flex-wrap justify-content-between">
+        <div className="d-flex flex-wrap justify-content-between container align-items-stretch gx-5">
             { job_cards }
         </div>
     );
