@@ -16,34 +16,10 @@ function TextCard({ title, url, description, img, width  }) {
   
     return (
       <div className={width}>
-        <Card className="my-2">
-            <CardImg
-            alt="Card image cap"
-            src={img}
-            style={{
-                height: 180
-            }}
-            top
-            width="100%"
-            />
-            <CardBody>
-            <CardTitle tag="h5">
-                { title }
-            </CardTitle>
-            <CardText>
-                { description }
-            </CardText>
-            <CardText>
-            <Button
-                color="primary"
-                href={url}
-                tag="a"
-            >
-                View Site
-            </Button>
-            </CardText>
-            </CardBody>
-        </Card>
+            <div>
+                <h3>{ title }</h3>
+                <p>{ description }</p>
+            </div>
       </div>
     );
   }
