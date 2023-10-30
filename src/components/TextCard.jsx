@@ -16,8 +16,8 @@ function TextCard({ title, url, description, img, width  }) {
   
     return (
       <div className={width}>
-            <div>
-                <h3>{ title }</h3>
+            <div className='text-white'>
+                <h3 >{ title }</h3>
                 <p>{ description }</p>
             </div>
       </div>

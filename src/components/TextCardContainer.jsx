@@ -5,7 +5,7 @@ import {
 } from 'reactstrap';
 
 
-function TextCardContainer(args) {
+function TextCardContainer({ bgImage }) {
 
     const websites = [
         {
@@ -45,20 +45,26 @@ function TextCardContainer(args) {
     );
 
     return (
-        <section>
-            <div><h2>What I do</h2></div>
-            <div className="d-flex flex-wrap justify-content-between container align-items-stretch gx-5">
-                { job_cards }
+        <section className='py-4 text-card-container' >
+            <div className='text-card-container-content'>
+                <div><h2 className='text-teal'>What I do</h2></div>
+                <div className="d-flex flex-wrap justify-content-between container align-items-stretch gx-5">
+                    { job_cards }
+                </div>
+                <div className='d-flex flex-wrap justify-content-center'>
+                <Button
+                    className='btn-teal'
+                    color="none"
+                    href="#"
+                    tag="a"
+                >
+                    see my work
+                </Button>
+                </div>
             </div>
-            <div className='d-flex flex-wrap justify-content-center'>
-            <Button
-                color="primary"
-                href="#"
-                tag="a"
-            >
-                See my work
-            </Button>
-            </div>
+
+
+            <div className='bg-dark overlay'></div>
         </section>
         
     );
