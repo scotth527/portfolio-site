@@ -35,7 +35,7 @@ function JobCard({ title, url, description, img, width  }) {
             </CardText>
             <CardText>
             <Button
-                color="primary"
+                color="btn-teal"
                 href={url}
                 tag="a"
             >
@@ -53,7 +53,7 @@ function JobCard({ title, url, description, img, width  }) {
     description: 'My Prop',
     title: 'Test',
     img: 'https://picsum.photos/900/180',
-    width: 'col col-lg-3 h-100 px-3'
+    width: 'col-12 col-lg-3 h-100 px-3'
   }
   
   export default JobCard;

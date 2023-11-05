@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <Hero />
-            <h1>Past Projects</h1>
+            
             <CardContainer />
             <TextCardContainer />
         </>

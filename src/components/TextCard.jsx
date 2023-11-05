@@ -29,7 +29,7 @@ function TextCard({ title, url, description, img, width  }) {
     description: 'My Prop',
     title: 'Test',
     img: 'https://picsum.photos/900/180',
-    width: 'col col-lg-2'
+    width: 'col-12 col-lg-2'
   }
   
   export default TextCard;

@@ -90,7 +90,41 @@ footer svg {
   position: relative;
 }
 
-.btn-teal {
+.btn.btn-teal {
   background-color: #16DFBB;
   border-radius: 0;
+  font-weight: 700;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.text-card-container .btn.btn-teal {
+  margin-top: 3rem
+}
+
+
+#root .hero-container h2 {
+  padding-bottom: 0;
+}
+
+#root h2 {
+  font-size: 3.75rem;
+  padding-bottom:2rem;
+}
+
+.underline-decoration {
+  width: 10%;
+  border-top: 2px solid gray;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+section, footer {
+  padding: 3rem 1rem;
+}
+
+.section-sub-heading {
+  font-weight: 700;
+  padding: 1.5rem 0rem;
+  font-size: 1.75rem;
 }

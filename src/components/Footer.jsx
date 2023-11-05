@@ -8,7 +8,7 @@ function Footer(args) {
     
   
     return (
-      <footer className='py-4 bg-dark text-teal footer'>
+      <footer className=' bg-dark text-teal footer'>
         <div className='d-flex justify-content-center flex-column'>
           <div className=' fs-2'>
               Scott Huang { getCurrentYear() }
