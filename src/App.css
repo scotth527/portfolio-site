@@ -40,8 +40,43 @@ body {
 }
 
 .card {
-  padding: 2em;
+  /* padding: 6em; */
 }
+
+
+.hero-image-container {
+  position: static;
+  transform: none;
+}
+
+.hero-container .hero-image-container img {
+  padding: 1.5rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .bio-section-container .hero-image-container {
+    right: 0;
+    padding-right: 3rem;
+  }
+
+   .hero-image-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:0;
+  }
+
+  .hero-container img {
+
+    /* width: 50%; */
+    width: 100%;
+    padding-left: 4rem;
+  }
+  
+  
+}
+
+
 
 .read-the-docs {
   color: #888;
@@ -128,3 +163,28 @@ section, footer {
   padding: 1.5rem 0rem;
   font-size: 1.75rem;
 }
+
+.bio-section-container h3 {
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+div.hero-container {
+  padding: 4rem 0;
+}
+
+.job-card-section .card {
+  border: none;
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    padding: 12rem 0;
+  }
+}
+

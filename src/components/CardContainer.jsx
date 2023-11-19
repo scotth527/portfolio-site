@@ -42,7 +42,7 @@ function CardContainer(args) {
     );
 
     return (
-        <section className="  align-items-stretch gx-5 bg-dark">
+        <section className="job-card-section  align-items-stretch gx-5 bg-dark">
             <h1 className='text-white'>My work</h1>
             <div className='text-teal section-sub-heading'>A selection of my range of work</div>
             <div className='d-flex flex-wrap justify-content-between container' >

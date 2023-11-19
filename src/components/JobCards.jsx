@@ -16,7 +16,7 @@ function JobCard({ title, url, description, img, width  }) {
   
     return (
       <div className={width} >
-        <Card className="my-2">
+        <Card className="">
             <CardImg
             alt="Card image cap"
             src={img}
@@ -53,7 +53,7 @@ function JobCard({ title, url, description, img, width  }) {
     description: 'My Prop',
     title: 'Test',
     img: 'https://picsum.photos/900/180',
-    width: 'col-12 col-lg-3 h-100 px-3'
+    width: 'col-12 col-lg-3 h-100 px-3 my-2'
   }
   
   export default JobCard;
