@@ -4,7 +4,7 @@ import  HeroImage  from '../assets/images/hero-images/digital-hero.jpg';
 
 const Hero = (props) => {
   return (
-    <div>
+    <section>
       <div className='container hero-container position-relative'>
         <div className='  d-flex justify-content-start justify-content-lg-end'>
 
@@ -39,7 +39,7 @@ const Hero = (props) => {
       </div>
 
 
-    </div>
+    </section>
   );
 };
 

@@ -25,7 +25,7 @@ function Navigation(args) {
         <NavbarBrand href="/">&lt;Scott Huang&gt;</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto" navbar>
+          <Nav className="text-end" navbar>
             <NavItem>
               <NavLink href="/contact">Contact</NavLink>
             </NavItem>

@@ -180,6 +180,7 @@ div.hero-container {
 
 .job-card-section .card {
   border: none;
+  height: 22rem;
 }
 
 @media (min-width: 1024px) {
