@@ -10,13 +10,13 @@ function TextCardContainer({ bgImage }) {
     const websites = [
         {
             url: "test.com",
-            title: "AMC Fire",
+            title: "Front End Developement  ",
             description: "Cool websites",
             image: "fancy.png"
         },
         {
             url: "test.com",
-            title: "Concordia Fibers",
+            title: "Back End Developement",
             description: "Cool websites",
             image: "fancy.png"
         },

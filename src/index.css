@@ -68,14 +68,5 @@ button:focus-visible {
   }
 }
 
-.hero-container {
-  padding: 12rem 0;
-}
 
-.hero-container img {
-
-  /* width: 50%; */
-  width: 100%;
-  padding-left: 4rem;
-}
 

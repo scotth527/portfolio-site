@@ -28,7 +28,7 @@ const BioSection = ( props ) => {
 
         <div className='text-start pt-4 px-4 col-lg-6'>
             <p className=''>
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+              Enthusiastic, detail-oriented and adaptive Web Developer. Specializing in JavaScript, and its libraries such as React, and Gatsby. Experience creating REST API’s with technologies like Node.js, and Django/Python. Proficient in creating visually appealing sites that are clean and user friendly. Strong communication skills, customer oriented, and ability to work with management. Seeking opportunities to be part of a development team, where I can learn and share my unique experiences. When I am not coding, I am reading novels, cooking and spending time with my family.             
             </p>
         </div>
 
