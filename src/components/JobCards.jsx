@@ -35,9 +35,10 @@ function JobCard({ title, url, description, img, width  }) {
             </CardText>
             <CardText>
             <Button
-                color="btn-teal"
                 href={url}
                 tag="a"
+                className='btn-teal'
+                color="none"
             >
                 View Site
             </Button>

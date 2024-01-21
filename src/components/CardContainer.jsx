@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import JobCard  from './JobCards';
-
+import LinkCard from './LinkCard';
 
 function CardContainer(args) {
 
@@ -37,16 +37,16 @@ function CardContainer(args) {
         }
     ];
     
-    const job_cards = websites.map((number, index )=> 
-        <JobCard key={number.title + "-" + index } url={number.url} title={number.title} description={number.description} />
+    const link_cards = websites.map((number, index )=> 
+        <LinkCard key={number.title + "-" + index } url={number.url} title={number.title} description={number.description} />
     );
 
     return (
-        <section className="job-card-section  align-items-stretch gx-5 bg-dark">
+        <section className="job-card-section  align-items-stretch gx-5 ">
             <h1 className='text-white'>My work</h1>
             <div className='text-teal section-sub-heading'>A selection of my range of work</div>
             <div className='d-flex flex-wrap justify-content-between container' >
-            { job_cards }
+            { link_cards }
             </div>
         </section>
     );

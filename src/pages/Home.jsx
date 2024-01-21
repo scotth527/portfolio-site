@@ -8,10 +8,9 @@ function Home() {
     return (
         <>
             <Hero />
-            
-            <CardContainer />
-            <BioSection />
             <TextCardContainer />
+            <BioSection />
+            <CardContainer />
         </>
 
     )

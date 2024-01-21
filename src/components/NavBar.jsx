@@ -27,10 +27,10 @@ function Navigation(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="text-end" navbar>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink target="_blank" href="/contact">Contact</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/scotth527">
+              <NavLink target="_blank" href="https://github.com/scotth527">
                 GitHub
               </NavLink>
             </NavItem>

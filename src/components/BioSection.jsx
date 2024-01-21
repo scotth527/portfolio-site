@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'reactstrap';
-import  HeroImage  from '../assets/images/hero-images/digital-hero.jpg';
+import  HeroImage  from '../assets/images/hero-images/professional-pic.png';
 
 const BioSection = ( props ) => {
   return (

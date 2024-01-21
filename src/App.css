@@ -125,12 +125,16 @@ footer svg {
   position: relative;
 }
 
-.btn.btn-teal {
+.btn.btn-teal, .btn.btn-teal:hover {
   background-color: #16DFBB;
   border-radius: 0;
   font-weight: 700;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.btn.btn-teal:hover {
+  opacity: 0.6;
 }
 
 .text-card-container .btn.btn-teal {
@@ -176,6 +180,10 @@ img {
 
 div.hero-container {
   padding: 4rem 0;
+}
+
+.job-card-section {
+  background-color: #2E2E2E;
 }
 
 .job-card-section .card {
