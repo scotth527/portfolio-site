@@ -11,19 +11,19 @@ function TextCardContainer({ bgImage }) {
         {
             url: "test.com",
             title: "Front End Developement  ",
-            description: "Cool websites",
+            description: "Proficient working with Front End technologies specializing in ReactJS, Wordpress, HTML, CSS, Tailwind, Bootstrap",
             image: "fancy.png"
         },
         {
             url: "test.com",
             title: "Back End Developement",
-            description: "Cool websites",
+            description: "Have knowledge in working with Backend technologies like Django and Flask for Python, Ruby on Rails for Ruby, and NodeJS with some experience with mySQL",
             image: "fancy.png"
         },
         {
             url: "test.com",
-            title: "Oregon School Board Association",
-            description: "Cool websites",
+            title: "CMS",
+            description: "Experienced in building sites that use CMS's such as Wordpress, Webflow, Hubspot",
             image: "fancy.png"
         }
     ];

@@ -21,7 +21,7 @@ function LinkCard({ title, url, description, img, width  }) {
     description: 'My Prop',
     title: 'Test',
     img: 'https://picsum.photos/900/180',
-    width: 'col-12 col-lg-3 h-100'
+    width: 'col-12 col-lg-3 link-card'
   }
   
   export default LinkCard;
