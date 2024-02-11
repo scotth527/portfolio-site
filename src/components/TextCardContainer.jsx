@@ -46,7 +46,7 @@ function TextCardContainer({ bgImage }) {
                 <Button
                     className='btn-teal'
                     color="none"
-                    href="#"
+                    href="#my-work"
                     tag="a"
                 >
                     see my work

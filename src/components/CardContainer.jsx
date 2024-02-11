@@ -8,6 +8,13 @@ import ConcordiaScreen from '../assets/images/screencaps/concordia-screencap.png
 import OSBAScreen from '../assets/images/screencaps/osba-screencap.png';
 import WehrungScreen from '../assets/images/screencaps/wehrungs-screencap.png';
 import DuallScreen from '../assets/images/screencaps/duall-screencap.png';
+import McDonaldScreen from '../assets/images/screencaps/mcdonald-screencap.png';
+import MorrisScreen from '../assets/images/screencaps/morris-screencap.png';
+import DynamicScreen from '../assets/images/screencaps/dynamic-screencap.png';
+import FastStaffScreen from '../assets/images/screencaps/faststaff-screencap.png';
+import MyDiScreen from '../assets/images/screencaps/mydi-screencap.png';
+import WestchesterScreen from '../assets/images/screencaps/westchester-screencap.png';
+
 
 function CardContainer(args) {
 
@@ -53,39 +60,39 @@ function CardContainer(args) {
             url: "https://www.morrisengineeringllc.com/",
             title: "Morris Engineering",
             description: "Cool websites",
-            image: WehrungScreen
+            image: MorrisScreen
         
         },
         {
             url: "https://dynamic-ceramics.com/",
             title: "Dynamic Ceramics",
             description: "Cool websites",
-            image: WehrungScreen
+            image: DynamicScreen
         
         },
         {
-            url: "https://faststaffllc.com/",
-            title: "Fast Staff",
+            url: "https://mcdonaldfarmsinc.com/",
+            title: "McDonald Farms",
             description: "Cool websites",
-            image: WehrungScreen
+            image: McDonaldScreen
         },
         {
             url: "https://faststaffllc.com/",
             title: "Fast Staff",
             description: "Cool websites",
-            image: WehrungScreen
+            image: FastStaffScreen
         },
         {
-            url: "https://faststaffllc.com/",
-            title: "Fast Staff",
+            url: "https://wwmydi.com/",
+            title: "Digital ID",
             description: "Cool websites",
-            image: WehrungScreen
+            image: MyDiScreen
         },
         {
-            url: "https://faststaffllc.com/",
-            title: "Fast Staff",
+            url: "https://www.westchesterfamilycare.com/careers/",
+            title: "Westchester Family Care ",
             description: "Cool websites",
-            image: WehrungScreen
+            image: WestchesterScreen
         }
     ];
     
@@ -94,7 +101,7 @@ function CardContainer(args) {
     );
 
     return (
-        <section className="job-card-section  align-items-stretch gx-5 ">
+        <section id="my-work" className="job-card-section  align-items-stretch gx-5 ">
             <h1 className='text-white'>My work</h1>
             <div className='text-teal section-sub-heading'>A selection of my range of work</div>
             <div className='d-flex flex-wrap justify-content-start container' >
