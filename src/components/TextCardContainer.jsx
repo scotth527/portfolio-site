@@ -23,7 +23,7 @@ function TextCardContainer({ bgImage }) {
         {
             url: "test.com",
             title: "CMS",
-            description: "Experienced in building sites that use CMS's such as Wordpress, Webflow, Hubspot",
+            description: "Experienced in building sites that use CMS's such as Wordpress, Webflow, Hubspot. I also have experience in managing Wordpress, plugins and PHP updates for sites",
             image: "fancy.png"
         }
     ];
