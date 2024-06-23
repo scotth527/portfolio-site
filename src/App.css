@@ -200,3 +200,7 @@ div.hero-container {
 .link-card img {
   height: 15rem;
 }
+
+.link-card {
+  padding: 1rem;
+}
